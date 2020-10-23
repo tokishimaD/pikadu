@@ -138,11 +138,12 @@ body{
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-    width: auto;
+    width: 100%;
 }
 .post-image{
     cursor: pointer;
     max-height: 400px;
+    max-width: 80%;
 }
 .tags{
    margin-bottom: 22px;
