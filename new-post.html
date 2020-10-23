@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikadu - New Post</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header class="header">
+       <div class="header-wrapper">
+           <a href="index.html" class="header-logo">
+                <img src="images/logo.svg" alt="Logo: Pikadu" class="header-logo-image">
+            </a>
+           <nav class="header-nav">
+               <ul class="header-menu">
+                   <li class="header-menu-item"><a href="#" class="header-menu-link">New</a></li>
+                   <li class="header-menu-item"><a href="#" class="header-menu-link">Best</a></li>
+                   <li class="header-menu-item"><a href="#" class="header-menu-link">Hot</a></li>
+                   <li class="header-menu-item"><a href="#" class="header-menu-link">Follow</a></li>
+               </ul>
+           </nav>
+           <!--/.header-nav-->
+           <div class="input-group search">
+               <input type="search" class="search-input" placeholder="Пошук">
+               <button class="search-button">
+                   <img src="images/search.svg" alt="search icon" class="search-icon">
+               </button>
+           </div>
+            <a href="#" class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+       </div>
+       <!-- /.header-wrapper --> 
+   </header>
+   <!--/.header-->
+   <div class="content">
+       <main class="posts">
+            <form action="#" class="add-post">
+                <input type="text" name="post-title" class="add-title" placeholder="Post header">
+                <textarea name="post-text" id="text" class="add-text" placeholder="Post text"></textarea>
+                <div class="add-buttons">
+                    <button type="submit" class="button add-button">
+                        <svg class="icon icon-fire">
+                            <use xlink:href="images/icons.svg#fire"></use>
+                        </svg>
+                        Publish
+                    </button>
+                    <div class="add-media">
+                        <button class="button button-outline">
+                            <svg class="icon icon-video">
+                                <use xlink:href="images/icons.svg#video"></use>
+                            </svg>
+                            Video
+                        </button>
+                        <button class="button button-outline">
+                            <svg class="icon icon-photo">
+                                <use xlink:href="images/icons.svg#photo"></use>
+                            </svg>
+                            Photo
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <!-- /.add-post -->
+       </main>
+       <!--/.posts-->
+       <aside class="sidebar">
+            <div class="user">
+                <a href="#" class="user-info">
+                    <img width="40" height="40" src="images/avatar.jpg" alt="user avatar" class="user-avatar">
+                    <span class="user-name">Lisa</span>
+                </a>
+                <!--/.user-info-->
+                <a href="#" class="exit">
+                    <svg class="icon icon-exit">
+                        <use xlink:href="images/icons.svg#exit"></use>
+                    </svg>
+                </a>
+                <!--/.exit-->
+            </div>
+            <!--/.user-->
+            <nav class="sidebar-nav">
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Ansvers</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Comments</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link active">Rating</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Saved</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Following</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Notes</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Ignore-list</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.sidebar-nav -->
+            
+             <a href="#" class="promo">
+
+             </a>
+             <!-- /.promo -->
+       </aside>
+        <!--/.sidebar-->
+   </div>
+   <!--/.content-->
+
+   <!--scripts-->
+   <script src="js/main.js"></script>
+</body>
+</html>
